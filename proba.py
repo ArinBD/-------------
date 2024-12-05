@@ -135,7 +135,6 @@ for frame in (frame1, frame2, frame3, frame4):
 tk.Label(frame1, text="Меню", font=("Arial Bold", 30)).pack()
 tk.Button(frame1, text="Калькулятор", font=("Arial", 14), bg='dark green',fg="white", command=lambda: switch_frame(frame2)).pack()
 tk.Button(frame1, text="Работа с файлами", font=("Arial", 14), bg='dark green',fg="white",command=lambda: switch_frame(frame3)).pack()
-tk.Button(frame1, text="Рандомайзер", font=("Arial", 14), bg='dark green',fg="white",command=lambda: switch_frame(frame4)).pack()
 
 
 
